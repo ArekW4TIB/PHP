@@ -1,6 +1,6 @@
 <?php
 // --- 1. Utworzenie ciasteczka ---
-$nr_z_dziennika = 23; 
+$nr_z_dziennika = 24; 
 $czas_waznosci = time() + ($nr_z_dziennika * 24 * 60 * 60); 
 
 setcookie("uczen", "Arek", $czas_waznosci); 
@@ -22,6 +22,7 @@ if (!isset($_COOKIE["uczen"])) {
     echo " Ciasteczko 'uczen' nadal istnieje.";
 }
 ?>
+
 
 
 

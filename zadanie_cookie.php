@@ -3,7 +3,7 @@
 $nr_z_dziennika = 1; 
 $czas_waznosci = time() + ($nr_z_dziennika * 24 * 60 * 60); 
 
-setcookie("uczen", "Arke", $czas_waznosci); 
+setcookie("uczen", "Arek", $czas_waznosci); 
 
 // --- 2. Sprawdzenie, czy ciasteczko istnieje ---
 if (isset($_COOKIE["uczen"])) {
@@ -22,4 +22,5 @@ if (!isset($_COOKIE["uczen"])) {
     echo " Ciasteczko 'uczen' nadal istnieje.";
 }
 ?>
+
 

@@ -48,8 +48,9 @@
             <p>Ratuj mnie, przyjacielu, w ostatniej potrzebie: Kocham piękną Irenę. Rodzice i ona...</p>
         </article>
     </main>
-    <footer>Stronę wykonał: Arek Wronka 5TIB</footer>
+    <footer>Stronę wykonał: Arek Wronka </footer>
 </body>
 
 
 </html>
+
